@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事件控制"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="數據存儲"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_broadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="廣播"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="動畫"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+</LinearLayout>

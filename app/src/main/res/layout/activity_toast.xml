@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_toast_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默認" />
+
+    <Button
+        android:id="@+id/btn_toast_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改變位子"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_toast_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="帶圖片(自定義)"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btn_toast_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToastUtil"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

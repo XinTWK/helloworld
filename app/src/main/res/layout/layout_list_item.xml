@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#000"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2021-06-22"
+            android:textColor="@color/GrayDark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/GrayDark"
+            android:textSize="18sp"
+            android:text="這是內容"/>
+
+    </LinearLayout>
+</LinearLayout>
